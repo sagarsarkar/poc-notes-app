@@ -44,7 +44,7 @@ Notes added without selecting a folder will be considered as "Standalone Notes" 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/react-text-editor.git
+    git clone https://github.com/sagarsarkar/react-text-editor.git
     cd react-text-editor
     ```
 
