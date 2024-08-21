@@ -1,0 +1,85 @@
+/* TextEditor.css */
+.text-editor-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.folder-section, .editor-section {
+    margin-bottom: 20px;
+}
+
+.folder-input {
+    width: 97%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.folder-button, .save-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.folder-button:hover, .save-button:hover {
+    background-color: #0056b3;
+}
+
+.quill-editor {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: red;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.notes-section {
+    margin-top: 30px;
+}
+
+.notes-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.standalone-notes ul, .folder ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.standalone-notes li, .folder li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.foldered-notes .folder {
+    margin-bottom: 20px;
+}
+
+.foldered-notes h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
